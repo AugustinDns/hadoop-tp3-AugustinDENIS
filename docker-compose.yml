@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  hadoop:
+    image: hadoop-tp3-img
+    container_name: hadoop-tp3
+
+    ports:
+      - "9870:9870"
+      - "9864:9864"
+    volumes:
+      - ./data:/data
+      - ./jars:/jars
+    tty: true
+    stdin_open: true
