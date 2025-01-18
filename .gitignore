@@ -2,3 +2,6 @@
 .DS_Store
 target/
 *.jar
+!jars/tpfinal-augustin-denis_job1.jar
+!jars/tpfinal-augustin-denis_job2.jar
+!jars/tpfinal-augustin-denis_job3.jar
